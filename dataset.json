@@ -1,13 +1,428 @@
 {
 	"currencies": ["USD", "EUR"],
-	"statusses": ["COMPLETED", "PENDING"],
+	"statusses": ["COMPLETED", "EXPIRED"],
 	"transactions": [
 		{
-			"id": "xxx",
-			"date": "xxx",
-			"currency": "xxx",
-			"amount": "xxx",
-			"status": "xxx"
+			"id": "0db11bc2-063c-497a-89ef-adf6010e53bf",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 1,
+			"status": "EXPIRED",
+			"requestTimestamp": "2021-12-06T16:24:13.86",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-12-06T16:24:13.8587637Z"
+				},
+				{ "type": "TransactionStarted", "dateTime": "2021-12-06T16:24:14.242401Z" },
+				{ "type": "TransactionExpired", "dateTime": "2021-12-06T21:28:07.6251036Z" }
+			]
+		},
+		{
+			"id": "75226de7-5a74-4bcd-b00b-adf6010e372d",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 1.3,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-12-06T16:23:49.48",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-12-06T16:23:49.4803923Z"
+				},
+				{ "type": "TransactionStarted", "dateTime": "2021-12-06T16:23:56.5328Z" },
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-12-06T16:23:57.7675906Z"
+				}
+			]
+		},
+		{
+			"id": "3fd80f0e-f7a1-44a9-a545-adf6010ad0ca",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "USD",
+			"amount": 2,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-12-06T16:11:26.75",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-12-06T16:11:26.7501831Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-12-06T16:11:27.6181255Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-12-06T16:11:33.4651166Z"
+				}
+			]
+		},
+		{
+			"id": "693a83a0-a339-4c8a-aa7b-adf60109afdb",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "USD",
+			"amount": 1.3,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-12-06T16:07:20.193",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-12-06T16:07:20.1940032Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-12-06T16:07:21.1567784Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-12-06T16:07:28.147616Z"
+				}
+			]
+		},
+		{
+			"id": "79ee0d42-69ab-40a0-b5ab-adf601072a48",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 2.1,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-12-06T15:58:09.303",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-12-06T15:58:09.3023027Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-12-06T15:58:17.6216587Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-12-06T15:58:26.314262Z"
+				}
+			]
+		},
+		{
+			"id": "46cfbe79-0421-4589-b381-ade300c5dcef",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 1,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T12:00:23.833",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T12:00:23.8348843Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T12:00:24.4042394Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T12:00:30.1780316Z"
+				}
+			]
+		},
+		{
+			"id": "abf4e856-cde4-4f38-967d-ade300c5adb1",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 12.99,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:59:43.52",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:59:43.5216331Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:59:44.1579434Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:59:46.2099731Z"
+				}
+			]
+		},
+		{
+			"id": "d618b20e-3fb0-48bf-af27-ade300c05ed2",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 0.99,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:40:23.95",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:40:23.9516371Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:40:24.3417353Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:40:31.5789104Z"
+				}
+			]
+		},
+		{
+			"id": "53016c91-0040-44ca-8b32-ade300bfd789",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 2.5,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:38:28.507",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:38:28.5076474Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:38:29.1234721Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:38:31.461024Z"
+				}
+			]
+		},
+		{
+			"id": "ea84280f-a2aa-45c4-99d4-ade300b5b808",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 3.99,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:01:37.093",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:01:37.0927931Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:01:37.4744764Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:01:39.2333814Z"
+				}
+			]
+		},
+		{
+			"id": "8a3b051e-9141-41a2-a8df-ade300b5a964",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "USD",
+			"amount": 9.99,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:01:24.597",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:01:24.5972817Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:01:24.9067183Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:01:26.7441917Z"
+				}
+			]
+		},
+		{
+			"id": "812db6d0-7fc8-4cfa-a0bd-ade300b590cb",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 3,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T11:01:03.607",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T11:01:03.6081096Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T11:01:03.9819129Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:06:07.8511146Z"
+				}
+			]
+		},
+		{
+			"id": "0441cc4b-b965-4a7f-bed3-ade300b52276",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "USD",
+			"amount": 2,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:59:29.457",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:59:29.4579801Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:59:29.7564936Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T10:59:32.0080193Z"
+				}
+			]
+		},
+		{
+			"id": "4823d152-5a79-4462-950c-ade300b509ab",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "EUR",
+			"amount": 1,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:59:08.3",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:59:08.3005136Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:59:08.6466402Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T10:59:16.892116Z"
+				}
+			]
+		},
+		{
+			"id": "e78a8d9a-3a0b-46d3-b7cc-ade300b496c0",
+			"paymentMethod": "IDEAL",
+			"currencyCode": "USD",
+			"amount": 1,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:57:30.237",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:57:30.2363752Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:57:30.5478116Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T11:04:08.0029028Z"
+				}
+			]
+		},
+		{
+			"id": "4f437101-8e57-4d5c-9f94-ade300b3aa28",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "USD",
+			"amount": 4.5,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:54:08.347",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:54:08.3457754Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:54:09.2817373Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T10:54:10.032889Z"
+				}
+			]
+		},
+		{
+			"id": "e43c07c5-4f4d-4a34-ba98-ade300b3a8c2",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 4,
+			"status": "EXPIRED",
+			"requestTimestamp": "2021-11-17T10:54:07.15",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:54:07.14983Z"
+				},
+				{ "type": "TransactionStarted", "dateTime": "2021-11-17T10:54:07.377995Z" },
+				{ "type": "TransactionExpired", "dateTime": "2021-11-17T15:58:07.5927786Z" }
+			]
+		},
+		{
+			"id": "64f9deda-fb76-4417-bf68-ade300b38cdd",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "USD",
+			"amount": 3,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:53:43.347",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:53:43.3466751Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:53:43.5264348Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T10:53:52.5322709Z"
+				}
+			]
+		},
+		{
+			"id": "c995c4ae-ae77-4178-9605-ade300b34d8c",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 11.50,
+			"status": "EXPIRED",
+			"requestTimestamp": "2021-11-17T10:52:49.317",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:52:49.3170934Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:52:51.5229774Z"
+				},
+				{ "type": "TransactionExpired", "dateTime": "2021-11-17T15:56:08.5566386Z" }
+			]
+		},
+		{
+			"id": "756558e7-ecf6-4ef8-9fcf-ade300b33fb0",
+			"paymentMethod": "SEPACREDITTRANSFER",
+			"currencyCode": "EUR",
+			"amount": 2,
+			"status": "COMPLETED",
+			"requestTimestamp": "2021-11-17T10:52:37.49",
+			"events": [
+				{
+					"type": "TransactionInitiated",
+					"dateTime": "2021-11-17T10:52:37.4911093Z"
+				},
+				{
+					"type": "TransactionStarted",
+					"dateTime": "2021-11-17T10:52:37.6752889Z"
+				},
+				{
+					"type": "TransactionCompleted",
+					"dateTime": "2021-11-17T10:52:40.4818689Z"
+				}
+			]
 		}
 	]
 }
