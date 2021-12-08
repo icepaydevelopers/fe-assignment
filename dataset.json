@@ -1,0 +1,13 @@
+{
+	"currencies": ["USD", "EUR"],
+	"statusses": ["COMPLETED", "PENDING"],
+	"transactions": [
+		{
+			"id": "xxx",
+			"date": "xxx",
+			"currency": "xxx",
+			"amount": "xxx",
+			"status": "xxx"
+		}
+	]
+}
